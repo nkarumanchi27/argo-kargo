@@ -10,6 +10,10 @@ https://github.com/argoproj/argo-cd
 https://github.com/argoproj/argo-cd
 https://www.arthurkoziel.com/setting-up-argocd-with-helm/
 
+kubectl port-forward svc/argo-cd-argocd-server 8080:443
+
+## Install grafana
+
 ## create a argocd application to a simple python flask application.
 ## install kargo
 ## tutorial on kargo
