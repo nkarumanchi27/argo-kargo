@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: grafana
-  namespace: grafana # Specify the namespace for the Application resource
+  namespace: default # Specify the namespace for the Application resource
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
@@ -17,3 +17,5 @@ spec:
   syncPolicy:
     automated:
       selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
