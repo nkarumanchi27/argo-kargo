@@ -5,6 +5,9 @@ gcloud beta container --project "intense-elysium-446714-g4" clusters create "clu
 ```
 
 ## install argocd
+https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+https://github.com/argoproj/argo-cd
+https://github.com/argoproj/argo-cd
 https://www.arthurkoziel.com/setting-up-argocd-with-helm/
 
 ## create a argocd application to a simple python flask application.
