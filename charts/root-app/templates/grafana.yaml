@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/arthurk/argocd-example-install.git
+    repoURL: https://github.com/nkarumanchi27/argo-kargo.git
     path: charts/grafana
     targetRevision: HEAD
   destination:
