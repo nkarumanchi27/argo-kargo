@@ -13,8 +13,22 @@ https://www.arthurkoziel.com/setting-up-argocd-with-helm/
 kubectl port-forward svc/argo-cd-argocd-server 8080:443
 
 ## Install grafana
+https://grafana.com/docs/grafana/latest/setup-grafana/installation/helm/
+https://github.com/grafana/helm-charts/tree/main/charts/grafana
 
-## create a argocd application to a simple python flask application.
+## create a argocd application for a simple webapplication.
+### create the application helm chart and install it through helm to test it first
+'''
+helm install my-nginx ./my-nginx --namespace nginx --create-namespace
+helm upgrade my-nginx my-nginx -n nginx
+helm history my-nginx -n nginx
+helm package my-nginx
+
+
+'''
+### create an artifact out of te application helm chart and upload it to artifact hub
+### create an argocd application to install the chart into gke
+
 ## install kargo
 ## tutorial on kargo
 

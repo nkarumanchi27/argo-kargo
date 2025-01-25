@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-homepage
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Custom Nginx Home Page</title>
+    </head>
+    <body>
+      <h1>Welcome to the Customized Nginx Home Page!</h1>
+      <p>This page is served by Nginx running in a GKE cluster and the current running version is: v1.</p>
+    </body>
+    </html>

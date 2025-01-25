@@ -1,0 +1,14 @@
+apiVersion: v2
+name: my-nginx
+version: 1.0.0
+description: A Helm chart for deploying an NGINX application
+appVersion: "1.21.1"  # Optional: Version of the application this chart installs
+keywords:
+  - nginx
+  - web-server
+maintainers:
+  - name: Naresh K
+    email: nkarumanchi27@example.com
+sources:
+  - https://github.com/nkarumanchi27/argo-kargo.git
+icon: https://raw.githubusercontent.com/nginxinc/nginx-logo/main/nginx-logo.png
