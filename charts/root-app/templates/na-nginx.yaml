@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://nkarumanchi27.github.io/na-helm-charts/
+    repoURL: https://artifacthub.io/charts/nkarumanchi27/na-helm-charts
     path: my-nginx
     targetRevision: 1.0.0
   destination:
