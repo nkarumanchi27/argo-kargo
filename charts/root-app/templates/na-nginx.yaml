@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://artifacthub.io/charts/nkarumanchi27/na-helm-charts
-    path: my-nginx
+    repoURL: https://nkarumanchi27.github.io/na-helm-charts/
+    chart: my-nginx
     targetRevision: 1.0.0
   destination:
     server: https://kubernetes.default.svc
